@@ -45,9 +45,11 @@ Executando projeto utilizando o nodemon
 Para facilitar desenvolvimento, podemos adicionar "atalhos" de comandos no package.json:
 
 ```json
-"main": "src/index.js", // mudamos o caminho padrao da aplicacao para src/index.js
+// mudamos o caminho padrao da aplicacao para src/index.js
+"main": "src/index.js",
+// criamos o atalho "dev"
 "scripts": {
-    "dev": "nodemon" // criamos o atalho "dev"
+    "dev": "nodemon"
 },
 ```
 
